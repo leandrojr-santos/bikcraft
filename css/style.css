@@ -4,13 +4,14 @@
 
 @import "./global/header.css";
 
-
+/*utilidades*/
 @import "./utilidades/componentes.css";
 
+/* Home */
+@import "./home/introducao.css"; 
 
-@import "./home/introducao.css"; /* Home */
-
-
+/*Bicicletas*/
+@import "./bicicletas/bicicletas-lista.css";
 
 body {
   margin: 0px;

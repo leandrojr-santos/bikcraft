@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
 @import "./global/global.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
@@ -11,9 +12,13 @@
 @import "./home/introducao.css"; 
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
+@import "./home/depoimento.css";
 
 /*Bicicletas*/
 @import "./bicicletas/bicicletas-lista.css";
+
+/*Seguros*/
+@import "./seguros/seguros.css";
 
 body {
   margin: 0px;

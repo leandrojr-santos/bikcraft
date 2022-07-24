@@ -18,6 +18,7 @@
   max-width: max-content;
 }
 
+
 .link{
   display: inline-block;
   color: var(--cor-p1);
@@ -37,6 +38,16 @@
   color: var(--cor-0);
 }
 
+.titulo-bg{
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p{
+  margin-bottom: 4px;
+}
+
 .botao:hover{
   background: linear-gradient(#ffb60d, #e59317);
 }
@@ -48,6 +59,18 @@
 
 .botao.secundario:hover{
   background: var(--cor-9);
+}
+
+@media (max-width: 800px){
+  .titulo-bg{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 600px){

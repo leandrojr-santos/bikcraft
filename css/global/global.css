@@ -1,10 +1,9 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 600px;
   color: #111111;
+  padding-bottom: 0px;
 }
-
 
 ul {
   margin: 0px;
@@ -16,7 +15,13 @@ a {
   text-decoration: none;
   color: inherit;
 }
-h1, h2, h3, h4, ul, p, blockquote{
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote {
   margin: 0px;
 }
 
@@ -25,6 +30,6 @@ img {
   display: block;
 }
 
-img[src$=".jpg"]{
+img[src$=".jpg"] {
   border-radius: 4px;
 }

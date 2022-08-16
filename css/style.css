@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
-@import "./global/global.css";
+ @import "./global/global.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+@import "./utilidades/animacao.css";
 
 @import "./global/header.css";
 @import "./global/footer.css";
